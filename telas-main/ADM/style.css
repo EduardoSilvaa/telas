@@ -1,0 +1,92 @@
+.box {
+    width: 50%;
+    float: left;
+    height: 800px;/*Altura da linha*/
+   }
+   
+   .linha-vertical {
+    border-left: 2px solid;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
+    box-sizing: border-box;
+    color:black ;
+    float: left;
+   }
+
+   header{
+    background-color: #844646; /*cor do cabeçalho*/
+    overflow: hidden; /*faz com que o cabeçalho preencha todo o espaço*/
+    height: 40px;
+    border-bottom: 2px solid black;
+}
+
+#titulo-cabecalho {
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 15px;
+}
+      
+.search{
+    margin-top: 10px;
+    margin-left: 6px;
+  
+    /*border: 1px solid black;*/
+}
+
+ .container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.child{
+    width: 30%;
+    height: 100px;
+    background-color: #D9D9D9;
+    margin-bottom: 20px;
+    border-radius: 20px;
+
+}
+
+.container-b{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    margin-left: 100px;
+    margin-right: 40px;
+}
+
+.child-b{
+    width: 20%;
+    height: 70px;
+    background-color: #BFBFBF;
+    margin-bottom: 20px;
+    border-radius: 20px;
+
+}
+
+h1{
+    text-align: center;
+    font-size: 22px;
+}
+
+
+table, th, td {
+    border: 1px solid black;
+    right: 500px; float: left;
+}
+
+table{ 
+    width: 38%;
+    background-color: #D9D9D9;
+    float:left;
+    margin-right: 0vw;
+    font-size: 3vw;
+    
+    padding: 5vw 0vw 5vw 0vw;
+    min-width:40vw;
+    float:right;
+    transform: translateY(-190%);
+}
+
