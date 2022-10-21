@@ -30,7 +30,7 @@ header{
     margin-left: 20px;
     padding-top: 5px;
     margin-top: 20px;
-    height: 500px;
+    height: 580px;
     width: 35%;
     background-color: #a69b9b;
     border-radius: 5px;
@@ -38,7 +38,7 @@ header{
     
 }
 
-.teste{
+.teste1{
     background-color: #d9d9d9;
     border-radius: 10px;
     border: 1px solid black;
@@ -58,9 +58,14 @@ header{
     margin-right: 50px;
     margin-left: 50px;
     font-family: 'Times New Roman', Times, serif;
+    text-align: center;
 }
 
-.teste button{
+h5{
+    font-weight: bold;
+}
+
+.teste1 button{
     background-color: #a69b9b;
     color: #f2f2f2;
     padding: 4px 10px;
@@ -92,11 +97,15 @@ header{
 }
 
 .exe1{
-    margin-right: 500px;
+padding: 10px;
 }
 
-button{
+.blz{
     cursor: pointer;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    color: black;
     background-color: #FFFFFF;
 }
 
@@ -105,7 +114,46 @@ button{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
     background-color: #d2d2d2;
     padding-bottom: 50px;
+    height: 745px;
+}
+
+input{
+    width:150px;
+    height:25px;
+    border-radius:25px;
+    border: none;
+}
+
+.search{
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    /*border: 1px solid black;*/
+}
+button{
+    background-color: #a69b9b;
+    color: #f2f2f2;
+    padding: 4px 10px;
+    margin-left: 2px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    border-radius:25px;
+}
+
+.search button{
+    width: 40px;
+    height: 26px;
+}
+
+.search input{
+    margin-left: 100px;
+}
+
+.alinhar{
+    display: flex;
+    flex-direction: column;
 }
